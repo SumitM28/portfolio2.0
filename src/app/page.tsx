@@ -23,12 +23,12 @@ export default function Home() {
   return (
     <>
       <TransitionEffect />
-      <div className="max-w-screen-xl mx-auto min-h-screen h-full my-12">
+      <div className="max-w-screen-xl mx-auto min-h-screen h-full mt-24">
         <div className=" flex flex-col md:flex-row  h-full gap-5 md:gap-0">
           {/* img container */}
           <div className="flex-1 flex items-center justify-center">
             <Image
-              src={"/images/profile/developer-pic-1.png"}
+              src={"/images/profile/developer_img.jpg"}
               width={540}
               height={540}
               className=" object-cover"

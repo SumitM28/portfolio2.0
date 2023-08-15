@@ -78,14 +78,14 @@ function Experience() {
             }
           />
           <Details
-            position={"Backend Developer Intern"}
-            company={"Providentia Technologies"}
-            companyLink={"https://providentiatech.ai/"}
-            time={"July 2023 - Present"}
-            address={"Noida, Uttar Pradesh"}
+            position={"Web Developer Intern"}
+            company={"TWILEARN"}
+            companyLink={"https://www.twilearn.com/"}
+            time={"Mar 2023 - Apr 2023"}
+            address={"Maharashtra"}
             location={"Remote"}
             work={
-              "Contributed as a backend developer within the Providentia Technologies team, instrumental in enhancing the functionality of our proprietary systems. Spearheaded advancements in data processing efficiency and backend infrastructure, amplifying overall system performance and user experience."
+              "Collaborated with a team of web developers to design and develop responsive and user-friendly websites using HTML, CSS, JavaScript and jQuery. Implemented modern frontend frameworks like React to create interactive and dynamic user interfaces. Assisted in the integration of backend functionalities with RESTful APIs to facilitate seamless data exchange between frontend and backend components."
             }
           />
         </ul>

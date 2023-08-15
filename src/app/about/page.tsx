@@ -70,7 +70,7 @@ export default function About() {
           </div>
           <div className="col-span-8 md:col-span-4 p-8 lg:col-span-3">
             <Image
-              src={"/images/profile/developer-pic-2.jpg"}
+              src={"/images/profile/about_profile.png"}
               width={300}
               height={300}
               className="w-full h-full object-cover about_shadow"

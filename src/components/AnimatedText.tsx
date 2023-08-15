@@ -16,7 +16,13 @@ const quoto = {
     },
   },
 };
-export default function AnimatedText({ children, className }) {
+export default function AnimatedText({
+  children,
+  className,
+}: {
+  children: any;
+  className: String;
+}) {
   return (
     <motion.h1
       className={

@@ -1,7 +1,17 @@
 import React, { useRef } from "react";
 import { useScroll, motion } from "framer-motion";
 import LiIcon from "@/components/Icons/LiIcon";
-const Details = ({
+
+interface DetailsProps {
+  position: any;
+  company: any;
+  companyLink: any;
+  time: any;
+  address: any;
+  work: any;
+  location: any;
+}
+const Details: React.FC<DetailsProps> = ({
   position,
   company,
   companyLink,

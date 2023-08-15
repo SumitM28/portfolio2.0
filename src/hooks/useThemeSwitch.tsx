@@ -44,7 +44,7 @@ function useThemeSwitch() {
     }
   }, [mode]);
 
-  return [mode, setMode];
+  return [mode, setMode] as const;
 }
 
 export default useThemeSwitch;

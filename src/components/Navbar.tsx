@@ -44,7 +44,7 @@ function Navbar() {
         {/* logo */}
         <div
           className="text-xl h-14 w-14 bg-[#1b1b1b] flex items-center justify-center rounded-full dark:bg-light cursor-pointer"
-          onClick={() => window.location.reload(0)}
+          onClick={() => window.location.reload()}
         >
           <p className="text-white text-2xl font-semibold dark:text-dark">SM</p>
         </div>

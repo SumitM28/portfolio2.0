@@ -1,6 +1,5 @@
 "use client";
 import React, { useEffect, useRef } from "react";
-import type { Metadata } from "next";
 import AnimatedText from "@/components/AnimatedText";
 import Image from "next/image";
 import { useInView, useMotionValue, useSpring, motion } from "framer-motion";
@@ -8,12 +7,6 @@ import Skills from "@/components/Skills";
 import Experience from "@/components/Experience";
 import Education from "@/components/Education";
 import TransitionEffect from "@/components/TransitionEffect";
-
-export const metadata: Metadata = {
-  title: "About - Sumit Mahour",
-  description:
-    "React Developer, Web Developer, Nextjs Developer, React Native Developer, TypeScript Developer, Fullstack Developer, Frontend Developer, Backend Developer",
-};
 
 const AnimatedNumbers = ({ value }) => {
   const ref = useRef();

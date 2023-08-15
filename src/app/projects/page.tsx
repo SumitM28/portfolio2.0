@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-import type { Metadata } from "next";
 import AnimatedText from "@/components/AnimatedText";
 import Image from "next/image";
 import { GithubIcon } from "@/components/Icons/GitHubIcon";
@@ -73,11 +72,6 @@ const projects = [
   },
 ];
 
-export const metadata: Metadata = {
-  title: "Projects - Sumit Mahour",
-  description:
-    "React Developer, Web Developer, Nextjs Developer, React Native Developer, TypeScript Developer, Fullstack Developer, Frontend Developer, Backend Developer",
-};
 export default function page() {
   return (
     <>

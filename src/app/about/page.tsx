@@ -9,7 +9,7 @@ import Education from "@/components/Education";
 import TransitionEffect from "@/components/TransitionEffect";
 
 const AnimatedNumbers = ({ value }: { value: any }) => {
-  const ref = useRef();
+  const ref = useRef<HTMLSpanElement | null>(null);
 
   const motionValue = useMotionValue(0);
   const springValue = useSpring(motionValue, { duration: 3000 });

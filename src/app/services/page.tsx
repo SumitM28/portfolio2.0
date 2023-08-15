@@ -29,7 +29,7 @@ function page() {
               What I can do for you
             </h1>
             <h2 className="text-light/60 text-md font-medium">
-              Faster, better products that your users love. Here's all the
+              Faster, better products that your users love. Here&apos;s all the
               services I provide:
             </h2>
 
@@ -53,11 +53,11 @@ function page() {
           >
             <BsFillLaptopFill size={40} color={"#67c0ce"} />
             <h1 className=" text-2xl text-light font-semibold mt-3 mb-4">
-              Skills I'm fluent in
+              Skills I&apos;m fluent in
             </h1>
             <h2 className="text-light/60 text-md font-medium">
               Every designer needs the right skills to do the perfect job.
-              Thankfully, I'm multilingual.
+              Thankfully, I&apos;m multilingual.
             </h2>
 
             <ul className="pl-5 mt-5">

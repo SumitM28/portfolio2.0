@@ -47,22 +47,23 @@ export default function About() {
               Biography
             </h2>
             <p className=" font-medium dark:text-light">
-              Hi, I'm Sumit Mahour, a fullstack and mobile application developer
-              dedicated to crafting seamless, innovative, and user-focused
-              digital solutions. With over 1 years of hands-on experience in the
-              tech realm, I'm always on the lookout for fresh and creative
-              avenues to transform my clients' ideas into reality.
+              Hi, I&apos;m Sumit Mahour, a fullstack and mobile application
+              developer dedicated to crafting seamless, innovative, and
+              user-focused digital solutions. With over 1 years of hands-on
+              experience in the tech realm, I&apos;m always on the lookout for
+              fresh and creative avenues to transform my clients&apos;s ideas
+              into reality.
             </p>
             <p className="my-4 font-medium dark:text-light">
-              I firmly believe that the essence of development surpasses mere
-              coding – it involves tackling challenges head-on and engineering
+              I firmly believe that the essence of development surpasses coding
+              &ndash; it involves tackling challenges head-on and engineering
               intuitive, delightful encounters for users.
             </p>
             <p className=" font-medium dark:text-light">
-              Whether I'm immersed in architecting a web application, crafting a
-              responsive mobile app, or diving into any other digital venture, I
-              consistently channel my drive for technical brilliance and
-              user-centric philosophy into every endeavor. Anticipating the
+              Whether I&apos;m immersed in architecting a web application,
+              crafting a responsive mobile app, or diving into any other digital
+              venture, I consistently channel my drive for technical brilliance
+              and user-centric philosophy into every endeavor. Anticipating the
               chance to infuse my expertise and enthusiasm into your upcoming
               project.
             </p>

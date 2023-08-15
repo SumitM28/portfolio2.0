@@ -8,7 +8,7 @@ import Experience from "@/components/Experience";
 import Education from "@/components/Education";
 import TransitionEffect from "@/components/TransitionEffect";
 
-const AnimatedNumbers = ({ value }) => {
+const AnimatedNumbers = ({ value }: { value: any }) => {
   const ref = useRef();
 
   const motionValue = useMotionValue(0);

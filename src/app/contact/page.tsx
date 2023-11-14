@@ -7,7 +7,7 @@ export default function page() {
   return (
     <>
       <TransitionEffect />
-      <div className="max-w-screen-xl m-auto min-h-screen">
+      <div className="max-w-screen-xl mx-auto h-full w-full">
         <div className="flex justify-center mt-8">
           <AnimatedText className={"contact_text_shadow"}>
             Contact Me

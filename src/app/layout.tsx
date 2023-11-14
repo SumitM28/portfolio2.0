@@ -21,7 +21,10 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <div
-          className={montserrat.className + "font-mont bg-light dark:bg-dark"}
+          className={
+            montserrat.className +
+            "font-mont bg-light dark:bg-dark flex flex-col  min-h-screen h-full w-full justify-between"
+          }
         >
           <Navbar />
 

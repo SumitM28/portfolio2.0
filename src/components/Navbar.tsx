@@ -39,7 +39,7 @@ function Navbar() {
   const [mode, setMode] = useThemeSwitch();
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <header className=" max-w-screen-xl m-auto px-4 ">
+    <header className=" max-w-screen-xl mx-auto px-4 w-full ">
       <div className="flex justify-between items-center py-3">
         {/* logo */}
         <div

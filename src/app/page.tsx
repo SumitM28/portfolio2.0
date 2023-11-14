@@ -23,7 +23,7 @@ export default function Home() {
   return (
     <>
       <TransitionEffect />
-      <div className="max-w-screen-xl mx-auto min-h-screen h-full mt-24">
+      <div className="max-w-screen-xl mx-auto h-full">
         <div className=" flex flex-col md:flex-row  h-full gap-5 md:gap-0">
           {/* img container */}
           <div className="flex-1 flex items-center justify-center">

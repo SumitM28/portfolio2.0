@@ -10,7 +10,7 @@ function page() {
   return (
     <>
       <TransitionEffect />
-      <div className="max-w-screen-xl m-auto min-h-screen h-full my-12">
+      <div className="max-w-screen-xl w-full mx-auto h-full my-6">
         <div className="flex justify-center mt-8">
           <AnimatedText className={"services_text_shadow"}>
             Services

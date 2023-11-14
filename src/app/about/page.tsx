@@ -35,7 +35,7 @@ export default function About() {
   return (
     <>
       <TransitionEffect />
-      <div className="max-w-screen-xl m-auto min-h-screen h-full my-12 px-4">
+      <div className="max-w-screen-xl mx-auto h-full px-4">
         <div className="flex justify-center mt-8">
           <AnimatedText className={"about_text_shadow"}>
             Passion Fuels Purpose!
